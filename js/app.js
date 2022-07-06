@@ -27,7 +27,7 @@ myApp.controller('myController', function ($scope, $http, $q, $filter) {
                 data,
                 {
                     rows: ["name"],
-                    cols: ["score"]
+                    cols: ["total"]
                 }
             );
         } else {
@@ -35,7 +35,7 @@ myApp.controller('myController', function ($scope, $http, $q, $filter) {
                 data,
                 {
                     rows: ["name"],
-                    cols: ["score"]
+                    cols: ["total"]
                 }
             );
         }
